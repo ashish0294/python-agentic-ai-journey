@@ -7,7 +7,7 @@ user_input="Remember that I like short explanations"
 print(name[0])
 print(city[3])
 print(message[-2])
-print(user_input[0:8]) #start is included, end in not included
+print(user_input[0:8]) #start is included, end is not included
 print(user_input[:8])
 print(message[5:])
 print(name.upper())
@@ -42,7 +42,7 @@ print(profession)
 print(description)
 
 print(name[0])
-print(name[len(name)-1])
+print(name[-1])
 print(name[:3])
 
 why_learn="I am learning Python for AI"
